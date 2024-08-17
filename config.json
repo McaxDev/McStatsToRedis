@@ -1,0 +1,25 @@
+{
+	"redis": {
+		"host": "localhost",
+		"port": 6379
+	},
+	"mc_servers": [
+		{
+			"path": "/srv/paper/",
+			"db": 1
+		}
+	],
+	"sumed_stats": [
+		"mined",
+		"picked_up",
+		"crafted",
+		"broken"
+	],
+	"custom_stats": [
+		"play_time",
+		"deaths",
+		"mob_kills",
+		"damage_dealt",
+		"drop"
+	]
+}
